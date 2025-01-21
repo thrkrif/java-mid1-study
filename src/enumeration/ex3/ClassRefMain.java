@@ -9,6 +9,7 @@ public class ClassRefMain {
         printDiscount(Grade.BASIC,price);
         printDiscount(Grade.GOLD,price);
         printDiscount(Grade.DIAMOND,price);
+        System.out.println(Grade.BASIC.getDiscountPercent());
 
     }
 
