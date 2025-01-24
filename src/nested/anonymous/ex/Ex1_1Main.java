@@ -3,7 +3,7 @@ package nested.anonymous.ex;
 import java.util.Random;
 
 public class Ex1_1Main {
-
+    // 정적 중첩 클래스 이용
     static class Dice implements Process {
         @Override
         public void run() {
